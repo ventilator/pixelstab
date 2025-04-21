@@ -6,7 +6,15 @@ A festival totem highly inspired by Fusion Zauberstab by buddhabrot & tom: [Sour
 
 <img src="media/photo/intro_day.webp" alt="Totem" width="50%"/>
 
-Features
+## Repository
+
+Containing
+
+* 3D files for 3D printing
+* A guide to configure and assembly
+* No software as its just WLED config or (in case for the meshtastic addon, respective configuration)
+
+## Features
 
 * 2,40m tall -> easily visibile
 * 256 LEDs -> bright
