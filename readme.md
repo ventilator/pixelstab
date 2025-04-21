@@ -16,7 +16,9 @@ Features
 * using standard components, no custom PCBs
 
 Here is a short video in action:
-first_night_test.webm
+
+[first_night_test.webm](https://github.com/user-attachments/assets/08eeb2bc-af02-406a-8e4e-26b63fb9f7b4)
+
 
 ## Concept
 
@@ -63,9 +65,8 @@ As the diffusor is somewhat water tight, it even works under water. Dont try thi
 
 Time for a first test
 
-media/vid/first_look.mp4
+[first_look_50percent.webm](https://github.com/user-attachments/assets/14035ada-8678-426e-b955-b69719d0cac9)
 
-media/vid/first_look.webm
 
 ## Electricity
 
@@ -97,7 +98,8 @@ A lot of experiments have been done
 * Different sleeved as diffusior from different materials
 <img src="media/photo/different_shell_options.webp" alt="Totem" width="100%"/>
     * PLA, white: color neutral
-    first_static_fire.webm
+    * [first_static_fire.webm](https://github.com/user-attachments/assets/1b86edbb-ebab-416d-8447-a735b7279c38)
+    
     * PLA, yellow: nice warm effect and good looking at daylight
     * PVB, smoke grey: "darker" look at day, cool pattern at night. No need to go the extra mile and make it transparent with iso propanol. Negative payoff as diffusion is desired to mask the pixels
     <img src="media/photo/no_need_to_smooth_pvb.webp" alt="Totem" width="100%"/>
@@ -127,15 +129,16 @@ Try the totem before going to a festival.
 Experiences from Zauberstab:
 * Microphone's gain needs to be adjusted to exceesive volume
 * Hammer it a few times onto concrete to check nothing comes loose
-media/vid/first_test.webm
+  
+[first_stomp.webm](https://github.com/user-attachments/assets/597eaff7-7861-46d7-b57b-04249846276d)
 
 * Let the totem fall straight down on the concrete. It will break the sleve. so print a couple of extras
 * Test for rain tightness, I even dipped it into water
 
-media/vid/water_test.webm
+[water_test.webm](https://github.com/user-attachments/assets/b024f466-a88c-4878-802c-13ecfd0e517c)
+
 
 * adjust pixel brightness, at night you do not need full brightness, it also drains your battery quickly
-
 
 
 ## Addons
