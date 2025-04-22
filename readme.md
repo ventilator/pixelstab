@@ -54,7 +54,7 @@ The design supports addon-ons, like a meshtastic node that sends the location of
 <img src="media/img/16x16_led_matrix.webp" alt="Totem" width="25%"/>
 
 * A 16x16 RBG LED Matrix. I use a 12V version, but also a 5V should be fine. Data protocol is supported by WLED
-* WLED compatible LED driver: ["WLED PD Energy Meter ESP32 Sounds Reactive Addressable LED Strip Controller"](https://www.athom.tech/blank-1/wled-pd-energy-meter-esp32-sounds-reactive-addressable-led-strip-controller])
+* WLED compatible LED driver: ["WLED PD Energy Meter ESP32 Sounds Reactive Addressable LED Strip Controller"](https://www.athom.tech/blank-1/wled-pd-energy-meter-esp32-sounds-reactive-addressable-led-strip-controller)
     * Microphone built in and supported by WLED
     * Power input: 12V via USB-C power delivery
 * Power: Powerbank with USB-C output, in particular one which supports 12V, in particular "Anker Powerbank 20.000mAh" Model A1689
