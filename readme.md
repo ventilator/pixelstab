@@ -1,6 +1,9 @@
+[preview.webm](https://github.com/user-attachments/assets/b31f7aae-a3af-4f83-a82b-83c6bf008d21)
+
 # Fusion Pixelstab
 
 <img src="media/photo/intro_night.webp" alt="Totem" width="50%"/>
+
 
 A festival totem highly inspired by Fusion Zauberstab by buddhabrot & tom: [Source](https://git.binary-kitchen.de/buddhabrot/fusion-zauberstab). A excellent (german) write up is available here: [Make Article](https://git.binary-kitchen.de/buddhabrot/fusion-zauberstab/src/branch/master/make_artikel/gesamt.md)
 
