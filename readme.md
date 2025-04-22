@@ -117,22 +117,24 @@ A lot of experiments have been done
 <img src="media/photo/different_pixel_geometry.webp" alt="Totem" width="75%"/>
 
 * Slicing tricks: Enable 10+ perimeters, so the bridging algorithm is tricked into using circular bridges
-* 
+  
 <img src="media/photo/overhangs.webp" alt="Totem" width="75%"/>
 <img src="media/img/slicer_settings_add_perimenters.webp" alt="Totem" width="100%"/>
 <img src="media/photo/good_bridges.webp" alt="Totem" width="75%"/>
 
-* Different sleeved as diffusior from different materials
-* 
+* Different sleeves as diffusor from different materials
+
 <img src="media/photo/different_shell_options.webp" alt="Totem" width="100%"/>
 
-    * PLA, white: color neutral
-    * 
-    * [first_static_fire.webm](https://github.com/user-attachments/assets/1b86edbb-ebab-416d-8447-a735b7279c38)
+* PLA, white: color neutral
     
-    * PLA, yellow: nice warm effect and good looking at daylight
-    * PVB, smoke grey: "darker" look at day, cool pattern at night. No need to go the extra mile and make it transparent with iso propanol. Negative payoff as diffusion is desired to mask the pixels
-    <img src="media/photo/no_need_to_smooth_pvb.webp" alt="Totem" width="100%"/>
+[first_static_fire.webm](https://github.com/user-attachments/assets/1b86edbb-ebab-416d-8447-a735b7279c38)
+    
+* PLA, yellow: nice warm effect and good looking at daylight
+* PVB, smoke grey: "darker" look at day, cool pattern at night. No need to go the extra mile and make it transparent with iso propanol. Negative payoff as diffusion is desired to mask the pixels
+  
+<img src="media/photo/no_need_to_smooth_pvb.webp" alt="Totem" width="100%"/>
+    
 * for the pixel pattern cylinder: use a dark color. Using white bleeds too much light to the next pixel
 
 ## Assembly
