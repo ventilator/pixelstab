@@ -30,6 +30,17 @@ Here is a short video in action:
 
 [first_night_test.webm](https://github.com/user-attachments/assets/08eeb2bc-af02-406a-8e4e-26b63fb9f7b4)
 
+## Costs (Material)
+
+give or take 100€
+
+* LED Matrix ~20€
+* µController ~20€
+* Stick ~10€
+* 3D Filament ~10€
+* Powerbank ~20€
+* USB-C cable and adapters ~10€
+* Meshtastic Addon (optional) ~30€
 
 ## Concept
 
