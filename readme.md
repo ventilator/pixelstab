@@ -171,6 +171,12 @@ Experiences from Zauberstab:
 
 * add a relay or switch to be able to shut down the totem if its not in use. currently you need to manually remove the battery for that
 
+## niceties
+
+* If you have a laser engraver, you could engrave the stick with your name
+
+<img src="media/photo/stick_engraving.webp" alt="Totem" width="50%"/>
+
 ## Addons
 
 ### Meshtastic. 
