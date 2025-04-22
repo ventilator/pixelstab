@@ -32,7 +32,7 @@ Here is a short video in action:
 
 I have also built the totem mentioned above ("Zauberstab"). Its a very high quality totem with a ton of features, extremly nice looking und unique.
  I wanted to build something more accessible, something which needs less soldering (no soldering at all), does not need a laser cutter and in general: its my own design.
- I am using standard parts from shops like AliExpress, standard open source software like WLED and of corse, my 3D printer.
+ I am using standard parts from shops like AliExpress, standard open source software like WLED and of course, my 3D printer.
 The design supports addon-ons, like a meshtastic node that sends the location of the totem to my peers.
 
 ## Bill of material
@@ -47,28 +47,37 @@ The design supports addon-ons, like a meshtastic node that sends the location of
     * fairly cheap
     * delivers 12V via USB-C
     * can be charged through a different port
+    * mounted as "foot" of the rod to balance weight
 * Power is routed trough the aluminum rod via 2m USB-C cable. Connected with a magnetic usb-c to usb-c coupler, as the connection is not accessibile and inside the rod.
     * usb-c female to female adapter
     * VAFOTON / Model VAF-H006 magnetic coupler (with power delivery support)
-    * generic usb-c cable (with power delivery)
+    * generic usb-c cable (with power delivery), 2m. Longer or shorter cable will not fit into the rod
 * Aluminum rod, 20mm (outside), 17mm (inside), 2m long from a local hardware store ("Bauhaus")
 * Some standard 3mm screws and heatset inserts
     * 2 long 35mm screws
     * some shorter screws from a set of screws
-* 3D printed boday
+* 3D printed body
+    * >500g Filament
+    * color of your choice but I recommend white for the diffusor for starters
+* pig tail 4pin LED Matrix connector
+    * if no at hand, you could desolder the output one from the matrix and use it at the input side
+   
 
-<img src="media/photo/under_water_test.webp" alt="Totem" width="75%"/>
-As the diffusor is somewhat water tight, it even works under water. Dont try this at a festival without a backup unit
+<img src="media/photo/under_water_Test.webp" alt="Totem" width="75%"/>
+As the diffusor is somewhat water tight, it even works under water. Don't try this at a festival without a backup unit
 
 ## Software
 
 [WLED](https://kno.wled.ge). Since 0.15+ its audio reactive. That means, it has built in 2D pattern, built in sound (claps) and music (bpm) aware animations. Needs to be flashed on the ESP via webflasher. After flashing
 * configure the microphones GPIOs
 <img src="media/img/mic_config.webp" alt="Totem" width="50%"/>
+
 * configure the LED matrix
 <img src="media/img/wled_config.webp" alt="Totem" width="50%"/>
+
 * configure a startup pattern of your liking, so you do not need to manually select a pattern after each reboot
 * optional: flash WLED with usermodes for the built in current sensor. I did this, measured the current once (it was the same as with the external USB-multimeter) and left it deactive as I do not need online power monitoring
+  
 <img src="media/img/INA_config_for_usermod_firmware.webp" alt="Totem" width="25%"/>
 
 Time for a first test
@@ -78,7 +87,7 @@ Time for a first test
 
 ## Electricity
 
-I choose 12V power delivery, because its available in many power banks. A 5V panel needs more amps than most power banks can deliver, but with 12V the current consumption is low enough, so the power banks does not shut down if a bright pattern is shown
+I choose 12V power delivery, because its available in many power banks. A 5V panel needs more amps than most power banks can deliver, but with 12V the current consumption is low enough, so the power banks does not shut down if a bright pattern is shown. Also cables can be thinner and no need to feed the matrix from both sides, although its easily done using the existing connectors
 
 ## Shape
 
@@ -92,7 +101,7 @@ Fusion 360 was used. Its free for makers and its easy enough to handle. I love t
 
 <img src="media/img/embossing_for_the_win.webp" alt="Totem" width="75%"/>
 
-Play around with the pixel pattern. Squibbly pixels? Brick layer pixels? Just draw one pixel, multiply it by 16x16 on a sketch and emboss it to a cyclinder.
+Play around with the pixel pattern. Squiggly pixels? Brick layer pixels? Just draw one pixel, multiply it by 16x16 on a sketch and emboss it to a cyclinder.
 
 ## 3D printing
 
@@ -135,7 +144,7 @@ Note: I am using a magnetic connector and the female-female usb-c connector from
 
 Try the totem before going to a festival.
 Experiences from Zauberstab:
-* Microphone's gain needs to be adjusted to exceesive volume
+* Microphone's gain needs to be adjusted to exceesive volume. Have your smartphone with you at the first test at stage to change settings
 * Hammer it a few times onto concrete to check nothing comes loose
   
 [first_stomp.webm](https://github.com/user-attachments/assets/597eaff7-7861-46d7-b57b-04249846276d)
@@ -148,6 +157,9 @@ Experiences from Zauberstab:
 
 * adjust pixel brightness, at night you do not need full brightness, it also drains your battery quickly
 
+## next steps
+
+* add a relais or switch to be able to shut down the totem if its not in use. currently you need to manually remove the battery for that
 
 ## Addons
 
